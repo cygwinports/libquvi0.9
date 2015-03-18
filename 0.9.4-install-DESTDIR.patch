@@ -1,0 +1,13 @@
+Really?!?
+
+--- origsrc/libquvi-0.9.4/src/quvi-0.9/quvi/Makefile.am	2013-11-04 06:55:26.000000000 -0600
++++ src/libquvi-0.9.4/src/quvi-0.9/quvi/Makefile.am	2015-03-18 17:27:51.524852100 -0500
+@@ -17,7 +17,7 @@ libquvisubinclude_HEADERS=\
+   qversion.h
+ 
+ install-data-local:
+-	@if test -f $(libquvisubincludedir)/qfunc.h ; then \
++	@if test -f $(DESTDIR)$(libquvisubincludedir)/qfunc.h ; then \
+ 		echo "** Old headers found in $(libquvisubincludedir).  You should" ; \
+ 		echo "** remove the contents of this directory and type 'make " ; \
+ 		echo "** install' again." ; \

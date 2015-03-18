@@ -1,6 +1,6 @@
 NAME="libquvi0.9"
 VERSION=0.9.4
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="Flash Video download link parser library"
 DESCRIPTION="libquvi is a library for parsing flash video download links.
@@ -9,6 +9,7 @@ uses Lua for embeddable scripting."
 HOMEPAGE="http://quvi.sourceforge.net/"
 SRC_URI="mirror://sourceforge/quvi/libquvi-${VERSION}.tar.xz"
 SRC_DIR="libquvi-${VERSION}"
+PATCH_URI="0.9.4-install-DESTDIR.patch"
 
 PKG_NAMES="libquvi0.9_4 libquvi0.9-devel"
 libquvi0_9_4_REQUIRES="libquvi0.9-scripts"
