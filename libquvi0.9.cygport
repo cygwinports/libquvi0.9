@@ -1,6 +1,6 @@
 NAME="libquvi0.9"
 VERSION=0.9.4
-RELEASE=3
+RELEASE=4
 CATEGORY="Libs"
 SUMMARY="Flash Video download link parser library"
 DESCRIPTION="libquvi is a library for parsing flash video download links.
